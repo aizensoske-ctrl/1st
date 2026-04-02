@@ -24,7 +24,11 @@ export REDDIT_USER_AGENT="1st-reddit-bot/0.1 by your_username"
 export REDDIT_SUBREDDIT="test"
 export REDDIT_TRIGGER="!ping"
 export REDDIT_REPLY="pong"
+export RETRY_SECONDS="30"
+export REPLIED_CACHE_SIZE="10000"
 ```
+
+`REDDIT_USER_AGENT` is required by the bot and should identify your app and Reddit username.
 
 ## Run
 
